@@ -196,6 +196,8 @@ public class MainActivity extends AppCompatActivity {
             mNextButton.setEnabled(false);
             mPreviousButton.setEnabled(false);
             mStartStopButton.setEnabled(false);
+            mPageText.setTextSize(30);
+            mPageText.setText(String.format("画像がありません"));
         }
 
     }
